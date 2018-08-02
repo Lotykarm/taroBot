@@ -1,0 +1,22 @@
+{
+  "name": "tarodiscordbot",
+  "version": "1.0.0",
+  "description": "Taro bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lotykarm@bitbucket.org/lotykarm/tarodiscordbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lotykarm/tarodiscordbot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "foreach": "^2.0.5",
+    "shuffle-array": "^1.0.1"
+  }
+}
