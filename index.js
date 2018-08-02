@@ -120,4 +120,5 @@ client.on('message', message => {
 });
 
 // login to Discord with your app's token
-client.login(conf.token);
+var token = process.env.token;
+client.login(token);
