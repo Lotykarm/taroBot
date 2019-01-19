@@ -80,13 +80,9 @@ client.on('message', message => {
                 }
 
                 if (drawned) {
-                    //output message for each card drawned
-                    each(drawned.cards, function(val) {
-
-                        message.channel.send('Card drawned: ' + val[0] + ' de ' + val[1]);
-                    });
 
                     //remaining cards in deck
+                    message.channel.send(drawned.cards.length + ' cards drawned');
                     message.channel.send(drawned.remaining + ' cards remaining');
 
                 } else {
